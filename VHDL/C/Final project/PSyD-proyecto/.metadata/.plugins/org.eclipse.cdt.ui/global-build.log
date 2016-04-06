@@ -1,0 +1,352 @@
+13:25:18 **** Build of configuration Debug for project proyecto ****
+cs-make all 
+'Building file: ../proyecto.c'
+'Invoking: ARM Sourcery Windows GCC C Compiler'
+arm-none-eabi-gcc -I../../BSP/include -O0 -Wall -Wa,-adhlns="proyecto.o.lst" -c -fmessage-length=0 -mapcs-frame -MMD -MP -MF"proyecto.d" -MT"proyecto.d" -mcpu=arm7tdmi -g3 -gdwarf-2 -o "proyecto.o" "../proyecto.c"
+../proyecto.c:278:6: warning: return type of 'main' is not 'int'
+../proyecto.c: In function 'main':
+../proyecto.c:289:5: warning: implicit declaration of function 'segs_init'
+../proyecto.c:296:12: error: 'isr_tick' undeclared (first use in this function)
+../proyecto.c:296:12: note: each undeclared identifier is reported only once for each function it appears in
+../proyecto.c:307:2: warning: implicit declaration of function 'timer3_delay_s'
+../proyecto.c: In function 'handleMainOption':
+../proyecto.c:354:3: warning: case label value exceeds maximum value for type
+../proyecto.c: In function 'record':
+../proyecto.c:498:5: warning: implicit declaration of function 'segs_putchar'
+../proyecto.c:502:6: warning: implicit declaration of function 'sw_delay_ms'
+../proyecto.c:505:5: warning: implicit declaration of function 'segs_off'
+../proyecto.c: In function 'iis_textToSpeech':
+../proyecto.c:558:3: warning: passing argument 1 of 'iis_playwawFile' discards qualifiers from pointer target type
+../../BSP/include/iis.h:108:6: note: expected 'uint8 *' but argument is of type 'const uint8 *'
+cs-make: *** [proyecto.o] Error 1
+
+13:25:18 Build Finished (took 218ms)
+
+13:26:02 **** Incremental Build of configuration Debug for project BSP ****
+cs-make all 
+cs-make: Nothing to be done for `all'.
+13:26:03 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Building file: ../proyecto.c'
+'Invoking: ARM Sourcery Windows GCC C Compiler'
+arm-none-eabi-gcc -I../../BSP/include -O0 -Wall -Wa,-adhlns="proyecto.o.lst" -c -fmessage-length=0 -mapcs-frame -MMD -MP -MF"proyecto.d" -MT"proyecto.d" -mcpu=arm7tdmi -g3 -gdwarf-2 -o "proyecto.o" "../proyecto.c"
+../proyecto.c:278:6: warning: return type of 'main' is not 'int'
+../proyecto.c: In function 'main':
+../proyecto.c:289:5: warning: implicit declaration of function 'segs_init'
+../proyecto.c:296:12: error: 'isr_tick' undeclared (first use in this function)
+../proyecto.c:296:12: note: each undeclared identifier is reported only once for each function it appears in
+../proyecto.c:307:2: warning: implicit declaration of function 'timer3_delay_s'
+../proyecto.c: In function 'handleMainOption':
+../proyecto.c:354:3: warning: case label value exceeds maximum value for type
+../proyecto.c: In function 'record':
+../proyecto.c:498:5: warning: implicit declaration of function 'segs_putchar'
+../proyecto.c:502:6: warning: implicit declaration of function 'sw_delay_ms'
+../proyecto.c:505:5: warning: implicit declaration of function 'segs_off'
+../proyecto.c: In function 'iis_textToSpeech':
+../proyecto.c:558:3: warning: passing argument 1 of 'iis_playwawFile' discards qualifiers from pointer target type
+../../BSP/include/iis.h:108:6: note: expected 'uint8 *' but argument is of type 'const uint8 *'
+cs-make: *** [proyecto.o] Error 1
+13:26:15 **** Incremental Build of configuration Debug for project BSP ****
+cs-make all 
+cs-make: Nothing to be done for `all'.
+13:26:15 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Building file: ../proyecto.c'
+'Invoking: ARM Sourcery Windows GCC C Compiler'
+arm-none-eabi-gcc -I../../BSP/include -O0 -Wall -Wa,-adhlns="proyecto.o.lst" -c -fmessage-length=0 -mapcs-frame -MMD -MP -MF"proyecto.d" -MT"proyecto.d" -mcpu=arm7tdmi -g3 -gdwarf-2 -o "proyecto.o" "../proyecto.c"
+../proyecto.c:278:6: warning: return type of 'main' is not 'int'
+../proyecto.c: In function 'main':
+../proyecto.c:289:5: warning: implicit declaration of function 'segs_init'
+../proyecto.c:304:2: warning: implicit declaration of function 'timer3_delay_s'
+../proyecto.c:306:12: error: 'isr_tick' undeclared (first use in this function)
+../proyecto.c:306:12: note: each undeclared identifier is reported only once for each function it appears in
+../proyecto.c: In function 'handleMainOption':
+../proyecto.c:352:3: warning: case label value exceeds maximum value for type
+../proyecto.c: In function 'record':
+../proyecto.c:496:5: warning: implicit declaration of function 'segs_putchar'
+../proyecto.c:500:6: warning: implicit declaration of function 'sw_delay_ms'
+../proyecto.c:503:5: warning: implicit declaration of function 'segs_off'
+../proyecto.c: In function 'iis_textToSpeech':
+../proyecto.c:556:3: warning: passing argument 1 of 'iis_playwawFile' discards qualifiers from pointer target type
+../../BSP/include/iis.h:108:6: note: expected 'uint8 *' but argument is of type 'const uint8 *'
+cs-make: *** [proyecto.o] Error 1
+13:26:38 **** Incremental Build of configuration Debug for project BSP ****
+cs-make all 
+cs-make: Nothing to be done for `all'.
+13:26:39 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Building file: ../proyecto.c'
+'Invoking: ARM Sourcery Windows GCC C Compiler'
+arm-none-eabi-gcc -I../../BSP/include -O0 -Wall -Wa,-adhlns="proyecto.o.lst" -c -fmessage-length=0 -mapcs-frame -MMD -MP -MF"proyecto.d" -MT"proyecto.d" -mcpu=arm7tdmi -g3 -gdwarf-2 -o "proyecto.o" "../proyecto.c"
+../proyecto.c:278:6: warning: return type of 'main' is not 'int'
+../proyecto.c: In function 'main':
+../proyecto.c:289:5: warning: implicit declaration of function 'segs_init'
+../proyecto.c:304:2: warning: implicit declaration of function 'timer3_delay_s'
+../proyecto.c:306:12: error: 'isr_tick' undeclared (first use in this function)
+../proyecto.c:306:12: note: each undeclared identifier is reported only once for each function it appears in
+../proyecto.c: In function 'handleMainOption':
+../proyecto.c:352:3: warning: case label value exceeds maximum value for type
+../proyecto.c: In function 'record':
+../proyecto.c:496:5: warning: implicit declaration of function 'segs_putchar'
+../proyecto.c:500:6: warning: implicit declaration of function 'sw_delay_ms'
+../proyecto.c:503:5: warning: implicit declaration of function 'segs_off'
+../proyecto.c: In function 'iis_textToSpeech':
+../proyecto.c:556:3: warning: passing argument 1 of 'iis_playwawFile' discards qualifiers from pointer target type
+../../BSP/include/iis.h:108:6: note: expected 'uint8 *' but argument is of type 'const uint8 *'
+cs-make: *** [proyecto.o] Error 1
+13:26:44 **** Incremental Build of configuration Debug for project BSP ****
+cs-make all 
+cs-make: Nothing to be done for `all'.
+13:26:44 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Building file: ../proyecto.c'
+'Invoking: ARM Sourcery Windows GCC C Compiler'
+arm-none-eabi-gcc -I../../BSP/include -O0 -Wall -Wa,-adhlns="proyecto.o.lst" -c -fmessage-length=0 -mapcs-frame -MMD -MP -MF"proyecto.d" -MT"proyecto.d" -mcpu=arm7tdmi -g3 -gdwarf-2 -o "proyecto.o" "../proyecto.c"
+../proyecto.c:280:6: warning: return type of 'main' is not 'int'
+../proyecto.c: In function 'main':
+../proyecto.c:291:5: warning: implicit declaration of function 'segs_init'
+../proyecto.c:306:2: warning: implicit declaration of function 'timer3_delay_s'
+../proyecto.c: In function 'handleMainOption':
+../proyecto.c:354:3: warning: case label value exceeds maximum value for type
+../proyecto.c: In function 'record':
+../proyecto.c:498:5: warning: implicit declaration of function 'segs_putchar'
+../proyecto.c:502:6: warning: implicit declaration of function 'sw_delay_ms'
+../proyecto.c:505:5: warning: implicit declaration of function 'segs_off'
+../proyecto.c: In function 'iis_textToSpeech':
+../proyecto.c:558:3: warning: passing argument 1 of 'iis_playwawFile' discards qualifiers from pointer target type
+../../BSP/include/iis.h:108:6: note: expected 'uint8 *' but argument is of type 'const uint8 *'
+'Finished building: ../proyecto.c'
+' '
+'Building target: proyecto.elf'
+'Invoking: ARM Sourcery Windows GCC C Linker'
+arm-none-eabi-gcc -T"../proyecto.ld" -nostartfiles -L../../BSP/Debug -Wl,-Map,proyecto.map -mcpu=arm7tdmi -g3 -gdwarf-2 -o "proyecto.elf"  ./proyecto.o   -lBSP
+'Finished building target: proyecto.elf'
+' '
+'Invoking: ARM Sourcery Windows GNU Create Flash Image'
+arm-none-eabi-objcopy -O binary proyecto.elf  "proyecto.hex"
+'Finished building: proyecto.hex'
+' '
+'Invoking: ARM Sourcery Windows GNU Create Listing'
+arm-none-eabi-objdump -h -S proyecto.elf > "proyecto.lst"
+'Finished building: proyecto.lst'
+' '
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley proyecto.elf
+   text	   data	    bss	    dec	    hex	filename
+  48692	  39144	     71	  87907	  15763	proyecto.elf
+'Finished building: proyecto.siz'
+' '
+13:27:06 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley proyecto.elf
+   text	   data	    bss	    dec	    hex	filename
+  48692	  39144	     71	  87907	  15763	proyecto.elf
+'Finished building: proyecto.siz'
+' '
+13:27:17 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley proyecto.elf
+   text	   data	    bss	    dec	    hex	filename
+  48692	  39144	     71	  87907	  15763	proyecto.elf
+'Finished building: proyecto.siz'
+' '
+13:27:28 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley proyecto.elf
+   text	   data	    bss	    dec	    hex	filename
+  48692	  39144	     71	  87907	  15763	proyecto.elf
+'Finished building: proyecto.siz'
+' '
+13:27:46 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley proyecto.elf
+   text	   data	    bss	    dec	    hex	filename
+  48692	  39144	     71	  87907	  15763	proyecto.elf
+'Finished building: proyecto.siz'
+' '
+13:29:21 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley proyecto.elf
+   text	   data	    bss	    dec	    hex	filename
+  48692	  39144	     71	  87907	  15763	proyecto.elf
+'Finished building: proyecto.siz'
+' '
+13:32:45 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley proyecto.elf
+   text	   data	    bss	    dec	    hex	filename
+  48692	  39144	     71	  87907	  15763	proyecto.elf
+'Finished building: proyecto.siz'
+' '
+13:35:44 **** Incremental Build of configuration Debug for project BSP ****
+cs-make all 
+cs-make: Nothing to be done for `all'.
+13:35:45 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Building file: ../proyecto.c'
+'Invoking: ARM Sourcery Windows GCC C Compiler'
+arm-none-eabi-gcc -I../../BSP/include -O0 -Wall -Wa,-adhlns="proyecto.o.lst" -c -fmessage-length=0 -mapcs-frame -MMD -MP -MF"proyecto.d" -MT"proyecto.d" -mcpu=arm7tdmi -g3 -gdwarf-2 -o "proyecto.o" "../proyecto.c"
+../proyecto.c:280:6: warning: return type of 'main' is not 'int'
+../proyecto.c: In function 'main':
+../proyecto.c:291:5: warning: implicit declaration of function 'segs_init'
+../proyecto.c:306:2: warning: implicit declaration of function 'timer3_delay_s'
+../proyecto.c: In function 'handleMainOption':
+../proyecto.c:354:3: warning: case label value exceeds maximum value for type
+../proyecto.c: In function 'record':
+../proyecto.c:498:5: warning: implicit declaration of function 'segs_putchar'
+../proyecto.c:502:6: warning: implicit declaration of function 'sw_delay_ms'
+../proyecto.c:505:5: warning: implicit declaration of function 'segs_off'
+../proyecto.c: In function 'iis_textToSpeech':
+../proyecto.c:558:3: warning: passing argument 1 of 'iis_playwawFile' discards qualifiers from pointer target type
+../../BSP/include/iis.h:108:6: note: expected 'uint8 *' but argument is of type 'const uint8 *'
+'Finished building: ../proyecto.c'
+' '
+'Building target: proyecto.elf'
+'Invoking: ARM Sourcery Windows GCC C Linker'
+arm-none-eabi-gcc -T"../proyecto.ld" -nostartfiles -L../../BSP/Debug -Wl,-Map,proyecto.map -mcpu=arm7tdmi -g3 -gdwarf-2 -o "proyecto.elf"  ./proyecto.o   -lBSP
+'Finished building target: proyecto.elf'
+' '
+'Invoking: ARM Sourcery Windows GNU Create Flash Image'
+arm-none-eabi-objcopy -O binary proyecto.elf  "proyecto.hex"
+'Finished building: proyecto.hex'
+' '
+'Invoking: ARM Sourcery Windows GNU Create Listing'
+arm-none-eabi-objdump -h -S proyecto.elf > "proyecto.lst"
+'Finished building: proyecto.lst'
+' '
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley proyecto.elf
+   text	   data	    bss	    dec	    hex	filename
+  48692	  39144	     71	  87907	  15763	proyecto.elf
+'Finished building: proyecto.siz'
+' '
+13:35:50 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley proyecto.elf
+   text	   data	    bss	    dec	    hex	filename
+  48692	  39144	     71	  87907	  15763	proyecto.elf
+'Finished building: proyecto.siz'
+' '
+13:37:05 **** Incremental Build of configuration Debug for project BSP ****
+cs-make all 
+cs-make: Nothing to be done for `all'.
+13:37:05 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Building file: ../proyecto.c'
+'Invoking: ARM Sourcery Windows GCC C Compiler'
+arm-none-eabi-gcc -I../../BSP/include -O0 -Wall -Wa,-adhlns="proyecto.o.lst" -c -fmessage-length=0 -mapcs-frame -MMD -MP -MF"proyecto.d" -MT"proyecto.d" -mcpu=arm7tdmi -g3 -gdwarf-2 -o "proyecto.o" "../proyecto.c"
+../proyecto.c:280:6: warning: return type of 'main' is not 'int'
+../proyecto.c: In function 'main':
+../proyecto.c:291:5: warning: implicit declaration of function 'segs_init'
+../proyecto.c:306:2: warning: implicit declaration of function 'timer3_delay_s'
+../proyecto.c: In function 'handleMainOption':
+../proyecto.c:354:3: warning: case label value exceeds maximum value for type
+../proyecto.c: In function 'record':
+../proyecto.c:498:5: warning: implicit declaration of function 'segs_putchar'
+../proyecto.c:502:6: warning: implicit declaration of function 'sw_delay_ms'
+../proyecto.c:505:5: warning: implicit declaration of function 'segs_off'
+../proyecto.c: In function 'iis_textToSpeech':
+../proyecto.c:558:3: warning: passing argument 1 of 'iis_playwawFile' discards qualifiers from pointer target type
+../../BSP/include/iis.h:108:6: note: expected 'uint8 *' but argument is of type 'const uint8 *'
+'Finished building: ../proyecto.c'
+' '
+'Building target: proyecto.elf'
+'Invoking: ARM Sourcery Windows GCC C Linker'
+arm-none-eabi-gcc -T"../proyecto.ld" -nostartfiles -L../../BSP/Debug -Wl,-Map,proyecto.map -mcpu=arm7tdmi -g3 -gdwarf-2 -o "proyecto.elf"  ./proyecto.o   -lBSP
+'Finished building target: proyecto.elf'
+' '
+'Invoking: ARM Sourcery Windows GNU Create Flash Image'
+arm-none-eabi-objcopy -O binary proyecto.elf  "proyecto.hex"
+'Finished building: proyecto.hex'
+' '
+'Invoking: ARM Sourcery Windows GNU Create Listing'
+arm-none-eabi-objdump -h -S proyecto.elf > "proyecto.lst"
+'Finished building: proyecto.lst'
+' '
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley proyecto.elf
+   text	   data	    bss	    dec	    hex	filename
+  48696	  39144	     71	  87911	  15767	proyecto.elf
+'Finished building: proyecto.siz'
+' '
+13:37:11 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley proyecto.elf
+   text	   data	    bss	    dec	    hex	filename
+  48696	  39144	     71	  87911	  15767	proyecto.elf
+'Finished building: proyecto.siz'
+' '
+13:39:14 **** Incremental Build of configuration Debug for project BSP ****
+cs-make all 
+cs-make: Nothing to be done for `all'.
+13:39:15 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Building file: ../proyecto.c'
+'Invoking: ARM Sourcery Windows GCC C Compiler'
+arm-none-eabi-gcc -I../../BSP/include -O0 -Wall -Wa,-adhlns="proyecto.o.lst" -c -fmessage-length=0 -mapcs-frame -MMD -MP -MF"proyecto.d" -MT"proyecto.d" -mcpu=arm7tdmi -g3 -gdwarf-2 -o "proyecto.o" "../proyecto.c"
+../proyecto.c:280:6: warning: return type of 'main' is not 'int'
+../proyecto.c: In function 'main':
+../proyecto.c:291:5: warning: implicit declaration of function 'segs_init'
+../proyecto.c:306:2: warning: implicit declaration of function 'timer3_delay_s'
+../proyecto.c: In function 'handleMainOption':
+../proyecto.c:354:3: warning: case label value exceeds maximum value for type
+../proyecto.c: In function 'record':
+../proyecto.c:498:5: warning: implicit declaration of function 'segs_putchar'
+../proyecto.c:502:6: warning: implicit declaration of function 'sw_delay_ms'
+../proyecto.c:505:5: warning: implicit declaration of function 'segs_off'
+../proyecto.c: In function 'iis_textToSpeech':
+../proyecto.c:558:3: warning: passing argument 1 of 'iis_playwawFile' discards qualifiers from pointer target type
+../../BSP/include/iis.h:108:6: note: expected 'uint8 *' but argument is of type 'const uint8 *'
+'Finished building: ../proyecto.c'
+' '
+'Building target: proyecto.elf'
+'Invoking: ARM Sourcery Windows GCC C Linker'
+arm-none-eabi-gcc -T"../proyecto.ld" -nostartfiles -L../../BSP/Debug -Wl,-Map,proyecto.map -mcpu=arm7tdmi -g3 -gdwarf-2 -o "proyecto.elf"  ./proyecto.o   -lBSP
+'Finished building target: proyecto.elf'
+' '
+'Invoking: ARM Sourcery Windows GNU Create Flash Image'
+arm-none-eabi-objcopy -O binary proyecto.elf  "proyecto.hex"
+'Finished building: proyecto.hex'
+' '
+'Invoking: ARM Sourcery Windows GNU Create Listing'
+arm-none-eabi-objdump -h -S proyecto.elf > "proyecto.lst"
+'Finished building: proyecto.lst'
+' '
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley proyecto.elf
+   text	   data	    bss	    dec	    hex	filename
+  48696	  39144	     71	  87911	  15767	proyecto.elf
+'Finished building: proyecto.siz'
+' '
+13:39:21 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley proyecto.elf
+   text	   data	    bss	    dec	    hex	filename
+  48696	  39144	     71	  87911	  15767	proyecto.elf
+'Finished building: proyecto.siz'
+' '
+13:40:00 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley proyecto.elf
+   text	   data	    bss	    dec	    hex	filename
+  48696	  39144	     71	  87911	  15767	proyecto.elf
+'Finished building: proyecto.siz'
+' '
+13:40:34 **** Incremental Build of configuration Debug for project proyecto ****
+cs-make all 
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley proyecto.elf
+   text	   data	    bss	    dec	    hex	filename
+  48696	  39144	     71	  87911	  15767	proyecto.elf
+'Finished building: proyecto.siz'
+' '
