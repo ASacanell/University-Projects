@@ -1,0 +1,46 @@
+package tp.pr5.instructions;
+
+import tp.pr5.NavigationModule;
+import tp.pr5.RobotEngine;
+import tp.pr5.instructions.exceptions.InstructionExecutionException;
+import tp.pr5.instructions.exceptions.WrongInstructionFormatException;
+import tp.pr5.items.ItemContainer;
+
+public class RadarInstruction implements Instruction {
+
+	/**
+	 * @uml.property  name="navigation"
+	 * @uml.associationEnd  
+	 */
+	private NavigationModule navigation;
+	
+	
+	public Instruction parse(String cad) throws WrongInstructionFormatException{
+		
+		if(cad.equalsIgnoreCase("RADAR"))
+		{
+			return new RadarInstruction();
+		}
+		throw new WrongInstructionFormatException();
+	}
+
+	@Override
+	public String getHelp() {
+		return "RADAR";
+	}
+
+	@Override
+	public void configureContext(RobotEngine engine,
+			NavigationModule navigation, ItemContainer robotContainer) {
+		this.navigation = navigation;
+		
+	}
+
+	@Override
+	public void execute() throws InstructionExecutionException {
+		
+		this.navigation.scanCurrentPlace();
+		
+	}
+
+}
